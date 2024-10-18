@@ -35,7 +35,8 @@ public class MergeSort
                 rightPointer++;
             }
         }
-
+        
+        // Add any remaining elements to the List
         result.AddRange(leftList.GetRange(leftPointer, leftList.Count - leftPointer));
         result.AddRange(rightList.GetRange(rightPointer, rightList.Count - rightPointer));
         return result;
