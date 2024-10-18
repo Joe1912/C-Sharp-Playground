@@ -1,1 +1,0 @@
-Hello there, this is just a playground where I practice algorithms and other silly stuff in C#
